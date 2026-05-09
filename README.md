@@ -61,11 +61,11 @@ The five documents are hosted in the `tasterank-explorer` repository, alongside 
 
 | Document | Description |
 | --- | --- |
-| [**Summary**](https://jskarabot18.github.io/tasterank-explorer/docs/TasteRank_Summary.pdf) | The full plain-language overview — the question, the encoding, the network construction, the centrality finding, the community structure, and the principal results. |
-| [**Technical Appendix**](https://jskarabot18.github.io/tasterank-explorer/docs/TasteRank_Technical_Appendix.pdf) | The full mathematical framework — cosine similarity, the kNN graph, eigenvector centrality with Perron–Frobenius reasoning, PageRank, modularity, and the implementation pipeline. |
-| [**Methods Primer**](https://jskarabot18.github.io/tasterank-explorer/docs/TasteRank_Methods_Primer.pdf) | A non-technical guide to the procedure for readers who want to follow the reasoning without the equations. Companion to the Technical Appendix. |
-| [**Data Appendix**](https://jskarabot18.github.io/tasterank-explorer/docs/TasteRank_Data_Appendix.pdf) | The complete 101-variety table with sensory profile scores, community assignments, TasteRank scores, and pipeline parameters. |
-| [**Grape Reference**](https://jskarabot18.github.io/tasterank-explorer/docs/TasteRank_Grape_Reference.pdf) | Per-variety descriptive notes covering the character, regional expression, and stylistic range of each of the 101 grapes in the network. |
+| [**Summary**](https://jskarabot18.github.io/tasterank-explorer/docs/summary.pdf) | The full plain-language overview — the question, the encoding, the network construction, the centrality finding, the community structure, and the principal results. |
+| [**Technical Appendix**](https://jskarabot18.github.io/tasterank-explorer/docs/technical-appendix.pdf) | The full mathematical framework — cosine similarity, the kNN graph, eigenvector centrality with Perron–Frobenius reasoning, PageRank, modularity, and the implementation pipeline. |
+| [**Methods Primer**](https://jskarabot18.github.io/tasterank-explorer/docs/methods-primer.pdf) | A non-technical guide to the procedure for readers who want to follow the reasoning without the equations. Companion to the Technical Appendix. |
+| [**Data Appendix**](https://jskarabot18.github.io/tasterank-explorer/docs/data-appendix.pdf) | The complete 101-variety table with sensory profile scores, community assignments, TasteRank scores, and pipeline parameters. |
+| [**Grape Reference**](https://jskarabot18.github.io/tasterank-explorer/docs/grape-reference.pdf) | Per-variety descriptive notes covering the character, regional expression, and stylistic range of each of the 101 grapes in the network. |
 
 ## Repository Structure
 
