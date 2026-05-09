@@ -11,7 +11,8 @@
       --wine: #7B2D26;
       --wine-dark: #5A1F1A;
       --wine-light: #A04038;
-      --cream: #FAF6F1;
+      --paper: #FAF6F1;
+      --paper-raised: #FFFDF8;
       --parchment: #F2EBE0;
       --ink: #1A1A1A;
       --ink-light: #4A4A4A;
@@ -24,7 +25,7 @@
     html { font-size: 16px; scroll-behavior: smooth; }
     body {
       font-family: 'Source Sans 3', 'Georgia', serif;
-      background: var(--cream);
+      background: var(--paper);
       color: var(--ink);
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
@@ -107,7 +108,7 @@
     }
     .hero-stat {
       display: inline-flex; align-items: center; gap: 0.6rem;
-      background: var(--white);
+      background: var(--paper-raised);
       border: 1px solid var(--border);
       border-radius: 6px;
       padding: 0.6rem 1.2rem;
@@ -156,7 +157,7 @@
     }
 
     /* ── ABSTRACT ── */
-    #abstract { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    #abstract { background: var(--paper-raised); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
     #abstract p {
       font-size: 1.05rem;
       color: var(--ink-light);
@@ -195,7 +196,7 @@
       margin-top: 2rem;
     }
     .finding-card {
-      background: var(--white);
+      background: var(--paper-raised);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 1.8rem;
@@ -268,7 +269,7 @@
       margin-top: 2rem;
     }
     .doc-card {
-      background: var(--white);
+      background: var(--paper-raised);
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 2rem;
@@ -320,7 +321,7 @@
     .doc-download svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; }
 
     /* ── METHOD SUMMARY ── */
-    #method { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    #method { background: var(--paper-raised); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
     .method-intro {
       font-size: 1.0rem;
       color: var(--ink-light);
@@ -451,13 +452,13 @@
       Structured tasting reads each wine across thirteen sensory dimensions — colour, aroma, fruit, herb, spice, acid, tannin, body, alcohol, flavour, finish, complexity, floral character. The dimensions have organised serious tasting since Peynaud, and they describe wine at the level a trained palate actually engages: not the label, not the region, but the wine itself in the mouth. This study asks what happens if we treat each grape's canonical sensory profile as a point in this thirteen-dimensional space and let the structure between the points speak for itself.
     </p>
     <p>
-      We encoded one hundred and one grape varieties as thirteen-dimensional sensory profiles, kept each variety's five closest sensory kin, and ranked the resulting network by structural centrality. The full mathematics is in the Technical Appendix.
+      We encoded one hundred and one grape varieties as thirteen-dimensional sensory profiles, kept each variety's five closest sensory kin, and ranked the resulting network by structural centrality.
     </p>
     <p>
       The structure is unevenly distributed. Some grapes sit at the gravitational centre, densely surrounded by similar peers — Sagrantino, Nero d'Avola, Lagrein, full-bodied Mediterranean reds whose profiles cluster tightly. Other grapes sit at the periphery, distinctive enough to have few close kin: Cabernet Sauvignon at rank thirty, Pinot Noir at forty-seven, Riesling at eighty-five. The grapes the wine trade calls noble are systematically peripheral. Distinctiveness has its own value — but it is something the trade vocabulary does not register.
     </p>
     <p>
-      Six natural families emerge from the same structure. Three are entirely red, two are entirely white, and one — Community C1 — holds four ultra-light reds clustered with seventeen aromatic whites. Frappato sits closer in body to Loureiro than to most reds. The network shows where the trade's categories are descriptively useful and where they silently obscure kinship.
+      Six natural families emerge from the same structure. Three are entirely red, two are entirely white, and one holds four ultra-light reds clustered with seventeen aromatic whites. Frappato sits closer in body to Loureiro than to most reds. The network shows where the trade's categories are descriptively useful and where they silently obscure kinship.
     </p>
   </div>
 </section>
@@ -488,7 +489,7 @@
       <div class="finding-card">
         <div class="finding-number">2</div>
         <h3>The red–white boundary is permeable</h3>
-        <p>Six natural families emerge from sensory similarity. Five fall cleanly into the colour categories the trade uses; one does not. Community C1 holds four ultra-light reds — Schiava, Poulsard, Frappato, Kadarka — clustered with seventeen aromatic whites. The cosine similarity between Frappato and Loureiro exceeds 0.98, higher than Frappato's similarity to most reds. At the structural level, colour is secondary to weight and aroma.</p>
+        <p>Six natural families emerge from sensory similarity. Five fall cleanly into the colour categories the trade uses; one does not. It holds four ultra-light reds — Schiava, Poulsard, Frappato, Kadarka — clustered with seventeen aromatic whites including Loureiro, Müller-Thurgau, and Welschriesling. Frappato sits closer in body to Loureiro than to most reds. Schiava sits closer to Riesling than to its red-grape peers. At the structural level, colour is secondary to weight and aroma.</p>
       </div>
 
       <div class="finding-card">
@@ -511,7 +512,7 @@
     <div class="discipline-grid">
       <div class="discipline-item">
         <h4>A vocabulary for the tasting you already do</h4>
-        <p>Serious tasters know that Frappato can read white, that Pinot Noir refuses its red-grape peers, that Riesling stands alone. The network gives the noticing a structure: a measurable kinship that confirms the intuition and shows where it generalises.</p>
+        <p>Careful tasters know that Frappato can read white, that Pinot Noir refuses its red-grape peers, that Riesling stands alone. The network gives the noticing a structure: a measurable kinship that confirms the intuition and shows where it generalises.</p>
       </div>
       <div class="discipline-item">
         <h4>The noble-grape hierarchy, examined</h4>
@@ -605,7 +606,7 @@
     <div class="section-label">Methodology</div>
     <div class="section-title">How the study works</div>
     <p class="method-intro">
-      The study uses graph-theoretic methods to encode 101 grape varieties as points in a thirteen-dimensional sensory space, measure their pairwise similarity, and rank the resulting network by structural centrality. The full mathematics is in the Technical Appendix; the Methods Primer covers the same ground without equations.
+      The study uses graph-theoretic methods to encode 101 grape varieties as points in a thirteen-dimensional sensory space, measure their pairwise similarity, and rank the resulting network by structural centrality. The formal derivation is in the Technical Appendix; the Methods Primer covers the same ground without equations.
     </p>
 
     <div class="method-steps">
